@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0; 
+    display: flex; 
+    background-color: #221c38; 
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-left: 0.5rem;
+    width: min-content;
+    height: 100vh; 
+    position: fixed; 
+    background-color: #c1bfbf; 
+    color: white; 
+    padding: 15px; 
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3); 
+}
+
+.sidebar h2 {
+    cursor: pointer; 
+    margin-top: 2rem; 
+}
+
+.sidebar ul {
+    list-style: none; 
+    padding: 0; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 35rem; 
+}
+
+.sidebar ul li {
+    margin: 15px 0; 
+    cursor: pointer; 
+}
+
+.sidebar ul li img {
+    transition: transform 0.6s ease; 
+}
+
+.sidebar ul li img:hover {
+    transform: scale(1.2); 
+}
+
+.content {
+    margin-left: 1rem; 
+    position: relative;
+    top: 2rem;
+    color: #fff; 
+}
+
+.content label input {
+    padding: 10px; 
+    width: 25rem;
+    border-radius: 5rem; 
+    border: none; 
+}
+
+.input-main {
+    margin-left: 7rem; 
+}
+
+.games {
+    margin-top: 4rem;
+    margin-left: 2rem;
+}
+
+.games h1 {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem; 
+    margin-left: 6rem; 
+    margin-top: 2rem;
+    padding-right: 15rem;
+}
+
+.legenda1 {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-top: -4rem;
+    margin-left: 15rem;
+    gap: 17.8rem;
+}
+
+.legenda2 {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-top: 14rem;
+    margin-left: -71rem;
+    gap: 16.1rem;
+}
+
+.games-img {
+    display: flex; 
+    flex-direction: row; 
+    width: 94rem;
+    height: 16rem;
+    margin-bottom: 2rem;
+}
+
+.img-container {
+    flex: 1 1 23%; 
+    max-width: 10%; 
+    position: relative; 
+    overflow: hidden; 
+    margin-left: 12rem; 
+}
+
+.img-container img {
+    width: 100%; 
+    height: 90%; 
+    object-fit: cover; 
+    cursor: pointer; 
+    transition: transform 0.6s ease; 
+}
+
+.img-container img:hover {
+    transform: scale(1.2); 
+}
+
+.games-img2 {
+    display: flex; 
+    flex-direction: row; 
+    width: 94rem;
+    height: 16rem;
+}
+
+.img-container2 {
+    flex: 1 1 23%; 
+    max-width: 10%; 
+    position: relative; 
+    overflow: hidden; 
+    margin-left: 12rem; 
+   
+}
+
+.img-container2 img {
+    width: 100%; 
+    height: 90%; 
+    object-fit: cover; 
+    cursor: pointer; 
+    transition: transform 0.6s ease; 
+}
+
+.img-container2 img:hover {
+    transform: scale(1.2); 
+}

@@ -1,0 +1,253 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #221c38;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-left: 0.5rem;
+    width: min-content;
+    height: 100vh; 
+    position: fixed;
+    background-color: #c1bfbf;
+    color: white;
+    padding: 15px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3); 
+}
+
+.sidebar h2 {
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 35rem;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.sidebar ul li img {
+    transition: transform 0.6s ease;
+}
+
+.sidebar ul li img:hover {
+    transform: scale(1.2);
+}
+
+#imagemhades {
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+
+.hades p{
+    font-family: "IM Fell French Canon SC", serif;
+    font-weight: 40rem;
+    font-size: 3.8rem;
+    font-style: normal;
+    margin-left: 23rem;
+    color: #ffffff;
+    position: absolute;
+    top: 0rem;
+    left: 1.4rem;     
+}
+
+body h3{
+    font-family: "Inter", sans-serif;
+    font-size: 17pt;
+    color:#ffffff;
+    text-align: start;
+    margin-left: 24.6rem;
+    margin-right: 20rem;
+    position: absolute;
+    top: 7rem;
+}
+
+body h4{
+    font-family: "Inder", sans-serif;
+    font-weight: 400;
+    font-size: 14pt;
+    color:#ffffff;
+    text-align: left;
+    position: absolute;
+    margin-left: 25rem;
+    top: 15rem;    
+}
+
+body h5{
+    font-family: "Inder", sans-serif;
+    font-weight: 400;
+    font-size: 14pt;
+    color:#ffffff;
+    text-align: left;
+    position: absolute;
+    margin-left: 36rem;
+    top: 14.6rem;    
+}
+
+body h6{
+    font-family: "Inder", sans-serif;
+    font-weight: 400;
+    font-size: 14pt;
+    color:#ffffff;
+    text-align: left;
+    position: absolute;
+    margin-left: 48rem;
+    top: 13.9rem; 
+}
+
+#pentagono {
+    position: absolute;
+    left: 78rem;
+    top: 15rem;
+}
+
+#texto {
+    font-family: "Inder", sans-serif;
+    font-size:11pt;
+    color:#ffffff;
+    text-align: center;
+    position: absolute;
+    left: 80rem;
+    top: 13rem; 
+}
+
+#texto2 {
+    font-family: "Inder", sans-serif;
+    font-size:11pt;
+    color:#ffffff;
+    text-align: center;
+    position: absolute;
+    left: 73.5rem;
+    top: 17rem; 
+}
+
+#texto3 {
+    font-family: "Inder", sans-serif;
+    font-size:11pt;
+    color:#ffffff;
+    text-align: center;
+    position: absolute;
+    left: 74.5rem;
+    top: 23rem; 
+}
+
+#texto4 {
+    font-family: "Inder", sans-serif;
+    font-size:11pt;
+    color:#ffffff;
+    text-align: center;
+    position: absolute;
+    left: 86rem;
+    top: 23rem; 
+}
+
+#texto5 {
+    font-family: "Inder", sans-serif;
+    font-size:11pt;
+    color:#ffffff;
+    text-align: center;
+    position: absolute;
+    left: 87.5rem;
+    top: 17rem; 
+}
+
+#texto6{
+    font-family: "Inder", sans-serif;
+    font-size:14pt;
+    color:#ffffff;
+    text-align: center;
+    position: absolute;
+    left: 10rem;
+    top: 20.5rem; 
+}
+
+#epicgames {
+    position: absolute;
+    left: 10rem;
+    top: 24rem;
+    border-radius: 1rem;
+}
+
+#steam {
+    position: absolute;
+    left: 15rem;
+    top: 24rem;
+    border-radius: 1rem;
+}
+
+#appstore {
+    position: absolute;
+    left: 20rem;
+    top: 24rem;
+    border-radius: 1rem;
+}
+
+#idade {
+    position: absolute;
+    left: 28rem;
+    top: 20.6rem;
+    border-radius: 1rem;
+}
+
+.textinhos{
+    font-family: "Inder", sans-serif;
+    font-size:9pt;
+    color:#ffffff;
+    text-align: justify;
+    position: absolute;
+    left: 52rem;
+    top: 20rem; 
+}
+
+#hades1{
+    position: absolute;
+    left: 10rem;
+    top: 31rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: transform 0.6s ease;
+}
+
+#hades1:hover{
+    transform: scale(1.2); 
+}
+
+#hades2{
+    position: absolute;
+    left: 38.3rem;
+    top: 31rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: transform 0.6s ease;
+}
+
+#hades2:hover{
+    transform: scale(1.2); 
+}
+
+#hades3{
+    position: absolute;
+    left: 67rem;
+    top: 31rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: transform 0.6s ease;
+}
+
+#hades3:hover{
+    transform: scale(1.2); 
+}

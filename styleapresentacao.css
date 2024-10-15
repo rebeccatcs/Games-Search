@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #221c38; 
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.content-main {
+    text-align: center;
+}
+
+.image-main img {
+    margin-left: 35rem;
+    margin-top: 0rem; 
+    margin-bottom: -2rem;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 26rem;
+}
+
+.content-main p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    display: flex; 
+    flex-direction: column; 
+    font-size: 20pt; 
+    margin-left: 24rem;
+    color: #fff; 
+}
+
+a button {
+    font-family: "Anton", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    padding: 1rem;
+    padding-left: 2.3rem;
+    padding-right: 2.3rem;
+    font-size: 1.1rem;
+    color:#000000;
+    background-color: #fff;
+    border-radius: 2.2rem;
+    margin-left: 11rem; 
+    margin-right: 1rem; 
+    margin-top: 39rem; 
+    cursor: pointer;
+   
+}
+
+a {
+    cursor: auto;
+}
+
+button:hover {
+    background-color: rgb(191, 198, 240); 
+}

@@ -1,0 +1,63 @@
+body{
+    background-image: url(img/globinho.png);
+    background-repeat: no-repeat;
+    background-color:  #221c38;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh; 
+}
+
+
+.conteudomain h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 25pt; 
+    text-align: center;
+    color: #fff; 
+    margin-left: 15rem;
+    margin-top: 5rem;
+   
+}
+
+.tag ul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    list-style: none;
+    margin-bottom: 0rem;
+    color: #fff; 
+   
+}
+.tag li {
+    margin-bottom: 10rem;
+    margin-top: 4rem;
+    font-size: 20pt;
+    margin-left: 5rem;
+}
+
+a button {
+    font-family: "Anton", sans-serif; 
+    font-weight: bold;
+    font-style: italic; 
+    padding: 1rem; 
+    padding-left: 2.3rem;
+    padding-right: 2.3rem;
+    font-size: 1.5rem; 
+    color:#000000;  
+    background-color: #fff; 
+    border-radius: 2.2rem; 
+    margin-left: 43rem; 
+    margin-right: 1rem; 
+    margin-top: -5rem; 
+    cursor: pointer;
+}
+
+a {
+    cursor: auto;
+}
+
+button:hover {
+    background-color: rgb(191, 198, 240);
+}
